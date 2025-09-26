@@ -1,0 +1,15 @@
+package classes;
+
+public class BankAccount{
+	private String ano;
+	private String owner;
+	private int balance;
+	
+	public void setAno(String ano) {
+		this.ano = ano;
+	}
+	
+	public String getAno() {
+		return ano;
+	}
+}

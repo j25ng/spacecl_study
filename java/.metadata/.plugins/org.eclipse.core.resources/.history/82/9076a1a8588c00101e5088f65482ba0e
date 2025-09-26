@@ -1,0 +1,16 @@
+package classes;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student st1 = new Student();
+
+		st1.studentId = 1001;
+		st1.name = "김기용";
+		st1.grade = 2;
+
+		st1.displayInfo();
+	}
+
+}

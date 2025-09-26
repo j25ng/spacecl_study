@@ -1,0 +1,22 @@
+package classes;
+
+public class Student {
+	int studentId;
+	String name;
+	int grade;
+
+	Student() {
+	};
+
+	Student(int studentId, String name, int grade) {
+		this.studentId = studentId;
+		this.name = name;
+		this.grade = grade;
+	}
+
+	void displayInfo() {
+		System.out.println("학번: " + studentId);
+		System.out.println("이름: " + name);
+		System.out.println("학년: " + grade);
+	}
+}

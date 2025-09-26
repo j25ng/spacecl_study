@@ -1,0 +1,15 @@
+package classes;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student st1 = new Student();
+
+		st1.studentId = 1001;
+
+		System.out.println("학번: " + st1.studentId);
+		System.out.println("이름: " + st1.name);
+	}
+
+}
