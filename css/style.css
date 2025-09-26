@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+}
+
+header {
+    height: 320px;
+}
+
+header nav {
+    height: 60px;
+    background-color: #000;
+}
+
+nav #main-nav {
+    text-align: center;
+}
+
+nav #main-nav li {
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 20px;
+}
+
+nav #main-nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#main-pic img {
+    height: 260px;
+}
+
+/* section */
+section {
+    height: 320px;
+    padding: 10px 5%;
+    /* 좌우 안쪽 여백 브라우저 크기 5% */
+}
+
+section .page-title {
+    margin: 20px 0;
+}
+
+section p {
+    line-height: 2.5;
+}
+
+section .content .photo {
+    display: none;
+}
+
+/* 태블릿 기준 */
+@media screen and (min-width: 780px) {
+    #container {
+        width: 780px;
+        margin: 0 auto;
+    }
+
+    header {
+        height: 360px;
+    }
+
+    #main-pic img {
+        height: 300px;
+    }
+
+    section {
+        height: 400px;
+        padding: 20px 5%;
+    }
+
+    section .content .photo {
+        display: block;
+        float: right;
+        width: 40%;
+    }
+
+    section .content .text {
+        width: 55%;
+        float: left;
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+}
